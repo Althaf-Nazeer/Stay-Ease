@@ -1,0 +1,18 @@
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px; 
+    height: auto; 
+  }
+  .heading{
+    margin-top: 100px;
+  }
+  .header{
+    text-align: center;
+  }
+  .update_div
+  {
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,54 @@
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px; 
+    height: auto; 
+  }
+  
+  .heading {
+    margin-top: 100px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .box {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: #d3d3d3;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .box-image {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 3px;
+  }
+  
+  .box p {
+    margin: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+  }

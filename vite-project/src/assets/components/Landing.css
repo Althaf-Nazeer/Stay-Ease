@@ -1,0 +1,48 @@
+.foodimage {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    margin-left: 60px; /* Add some spacing to the left */
+}
+
+.foodimage .food {
+    position: relative;
+}
+
+.foodimage img {
+    width: 300px;
+    height: 300px;
+    border-radius: 1.6em;
+    transition: transform 0.3s ease;
+}
+
+.foodimage .food:hover img {
+    transform: scale(1.1); /* Increase scale on hover */
+}
+
+.logoi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.landing {
+    margin-top: 100px;
+}
+.provide
+{
+    position: absolute;
+    right: 0;
+    top:0;
+    width:150px;
+    height:50px;
+    margin: 40px;
+    border:3px solid #ffafcc;
+    box-shadow: 0 0 10px #ffafcc; 
+    background-color: transparent;
+}
